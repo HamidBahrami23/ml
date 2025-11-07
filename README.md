@@ -4,14 +4,17 @@ This repository contains my daily ML/DL practice projects.
 Every folder contains an independent Jupyter Notebook focused on a single concept or algorithm.
 
 ## 📁 Structure
+
+```
 projects/
 ├── 01_KNN_Iris/
-│ ├── 01_KNN_Iris.ipynb
-│ └── data/ (ignored by .gitignore)
+│   ├── 01_KNN_Iris.ipynb
+│   └── data/         (ignored by .gitignore)
 ├── 02_CNN_Cats_vs_Dogs/
-│ ├── 02_CNN_Cats_vs_Dogs.ipynb
-│ └── data/
-...
+│   ├── 02_CNN_Cats_vs_Dogs.ipynb
+│   └── data/         (ignored by .gitignore)
+└── ...
+```
 
 ## 🧠 Topics Covered
 
