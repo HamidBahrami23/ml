@@ -8,12 +8,13 @@ The goal is to understand how KNN works on a simple dataset and explore model ev
 
 ## 📂 Project Structure
 
-
+```
 01_KNN_Iris/
 ├── notebooks/
-│ └── 01_KNN_Iris.ipynb # Main notebook
-├── src/ # Optional scripts (not used in this project)
-└── data/ # Dataset (ignored by .gitignore)
+│   └── 01_KNN_Iris.ipynb  # Main notebook
+├── src/                   # Optional scripts (not used in this project)
+└── data/                  # Dataset (ignored by .gitignore)
+```
 
 ---
 
@@ -51,27 +52,26 @@ Confusion Matrix:
 ---
 
 ## ▶️ How to Run
-```bash
-pip install -r requirements.txt
 
-
-Open notebook:
-
-jupyter notebook notebooks/01_KNN_Iris.ipynb
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Launch the notebook:
+   ```bash
+   jupyter notebook notebooks/01_KNN_Iris.ipynb
+   ```
 
 ---
 
-##💡 Learnings
+## 💡 Learnings
 
-Scaling is critical in KNN.
+- Scaling is critical in KNN.
+- Higher K reduces noise but too large K → model becomes too general.
+- Visualizing K vs accuracy reveals the “elbow point”.
 
-Higher K reduces noise but too large K → model becomes too general.
+## 🚀 Future Improvements
 
-Visualization of K vs accuracy reveals the “elbow point”.
-
-##🚀 Future Improvements
-
-Try KNN on different datasets
-
-Compare with other algorithms (SVM / Decision Tree / Logistic Regression)
+- Try KNN on different datasets.
+- Compare with other algorithms (SVM / Decision Tree / Logistic Regression).
 
