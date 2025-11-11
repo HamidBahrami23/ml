@@ -2,6 +2,8 @@
 
 Status: **Work in progress**
 
+Dataset link : https://www.kaggle.com/datasets/invalizare/hoda-mat
+
 Short description
 This repository is not completed yet. It will contain experiments and code for a convolutional neural network (CNN) related to "Hoda". Development is ongoing.
 
