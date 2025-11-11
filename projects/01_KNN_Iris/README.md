@@ -8,13 +8,12 @@ The goal is to understand how KNN works on a simple dataset and explore model ev
 
 ## 📂 Project Structure
 
-```
+
 01_KNN_Iris/
 ├── notebooks/
-│   └── 01_KNN_Iris.ipynb  # Main notebook
-├── src/                    # Optional scripts (not used in this project)
-└── data/                   # Dataset (ignored by .gitignore)
-```
+│ └── 01_KNN_Iris.ipynb # Main notebook
+├── src/ # Optional scripts (not used in this project)
+└── data/ # Dataset (ignored by .gitignore)
 
 ---
 
@@ -34,10 +33,11 @@ The goal is to understand how KNN works on a simple dataset and explore model ev
 - Best value of **K (number of neighbors): `9`**
 - Test accuracy achieved: **0.9556 (≈ 96%)**
 
-**Confusion Matrix Results:**
-- **Setosa**: ✅ perfect classification
-- **Versicolor**: ✅ perfect classification  
-- **Virginica**: 🔸 some misclassifications
+Confusion Matrix:
+
+| Setosa | Versicolor | Virginica |
+|--------|------------|-----------|
+| ✅ perfect | ✅ perfect | 🔸 some misclassifications |
 
 ---
 
@@ -54,19 +54,24 @@ The goal is to understand how KNN works on a simple dataset and explore model ev
 ```bash
 pip install -r requirements.txt
 
-# Open notebook:
+
+Open notebook:
+
 jupyter notebook notebooks/01_KNN_Iris.ipynb
-```
 
 ---
 
-## 💡 Learnings
-- Scaling is critical in KNN.
-- Higher K reduces noise but too large K → model becomes too general.
-- Visualization of K vs accuracy reveals the "elbow point".
+##💡 Learnings
 
----
+Scaling is critical in KNN.
 
-## 🚀 Future Improvements
-- Try KNN on different datasets
-- Compare with other algorithms (SVM / Decision Tree / Logistic Regression)
+Higher K reduces noise but too large K → model becomes too general.
+
+Visualization of K vs accuracy reveals the “elbow point”.
+
+##🚀 Future Improvements
+
+Try KNN on different datasets
+
+Compare with other algorithms (SVM / Decision Tree / Logistic Regression)
+
