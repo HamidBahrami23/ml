@@ -10,8 +10,8 @@ projects/
 ├── 01_KNN_Iris/
 │   ├── 01_KNN_Iris.ipynb
 │   └── data/         (ignored by .gitignore)
-├── 02_CNN_Cats_vs_Dogs/
-│   ├── 02_CNN_Cats_vs_Dogs.ipynb
+├── 02_02_CNN_Hoda/
+│   ├── 02_02_CNN_Hoda.ipynb
 │   └── data/         (ignored by .gitignore)
 └── ...
 ```
@@ -44,3 +44,15 @@ projects/
 git clone https://github.com/HamidBahrami23/Daily-Coding-Practice.git
 cd Daily-Coding-Practice
 pip install -r requirements.txt
+```
+
+---
+
+## Note
+
+**Important:** All the codes in this repository were written by me. I used AI assistance only for:
+- Writing and improving the README file
+- Adding comments to my codes
+- Getting suggestions for better code structures and ideas
+
+The skeleton, logic, implementation, and main codes are entirely my own work.
